@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iButton Reader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="temperature">Temp: 0.0 °C</string>
+    <string name="enumerate">Enumerate</string>
+
+</resources>

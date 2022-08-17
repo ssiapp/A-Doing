@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".IButtonReaderActivity" >
+
+     <TextView
+        android:id="@+id/temperatureCurrent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/temperature"/>
+
+    <Button
+        android:id="@+id/buttonEnumerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enumerate" 
+        android:layout_gravity="center_horizontal"/>
+    
+    <Spinner
+    android:id="@+id/romIDSpinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff" />
+
+</LinearLayout>
